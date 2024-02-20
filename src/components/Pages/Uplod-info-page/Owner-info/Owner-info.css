@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    #owner-sec-container{
+        max-width: 100%;
+    }
+}
+
+.owner-sec{
+    box-shadow: 0px 0px 20px -9px #000;
+}
+.owner-btn{
+    width: 100%;
+    color: #fff;
+    background-color: #7755D6;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 50px;
+    border: none;
+}
+
+@media (max-width: 426px) {
+    .owner-sec{
+        box-shadow: 0px 0px 0px 0px ;
+        margin: 0px;
+        padding: 0px !important;
+    }
+}
