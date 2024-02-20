@@ -1,0 +1,80 @@
+.product-detail-main{
+    margin: 7rem 0px;
+    border: 1px solid #fff;
+    box-shadow: 0px 0px 27px -10px #000;
+    padding: 4rem 5rem;
+}
+
+.product-detail-heading h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.product-detail-heading p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #676767;
+}
+
+.product-detail-txt P{
+    font-weight: 500;
+    font-size: 20px;
+    color: #9C9C9C;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+.product-btn{
+    background-color: #6257C7;
+    padding: 10px 35px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.product-detail-img{
+    background-image: url('C:/Users/Darshan/Desktop/REACT/franchisewala/public/product-detail-img/ceo.svg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+@media(max-width: 992px) {
+    .product-detail-img{
+        height: 233px;
+    }
+}
+
+@media(max-width: 768px) {
+    .product-detail-img{
+        display: none;
+    }
+
+}
+
+@media (max-width: 690px) {
+    .product-detail-main{
+        margin: 5rem 0px;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .product-detail-heading h2{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 375px){
+    .product-detail-main{
+        margin: 0rem 0px;
+        border: 0px;
+        box-shadow: 0px 0px;
+        padding: 0rem 
+    }
+}

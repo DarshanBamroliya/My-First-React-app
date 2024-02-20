@@ -1,0 +1,116 @@
+.login-page{
+    background: url('/public/Login-page-img/hero-main-bg2.png') #7F30FF;
+    background-size: cover;
+	margin-top: -76px;
+}
+.login-page .container{
+    max-width: 95%;
+}
+.login-page-main{
+	height: 100vh;
+    padding-top: 100px;
+}
+.login-hero img{
+    width: 100%;
+}
+.login-hero-main-box{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    width: 450px;
+    text-align: center;
+}
+.login-hero-box-num p{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 0px;
+}
+.login-hero-box-hr{
+    margin: 0px;
+    opacity: 1;
+    width: 85%;
+}
+.login-hero-box-num input{
+    border: none;
+    color: #A4A4A4;
+    font-weight: 500;
+    font-size: 17px;
+    border-bottom: 1px solid #7D7D7D;
+    width: 100%;
+}
+.login-hero-box-btn{
+    width: 100%;
+    background-color: #42D38F;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.login-hero-box-btn-main span{
+    color: #8a8a8a;
+}
+.login-hero-box-btn-main hr{
+    width: 30%;
+    color: #B5B5B5;
+    opacity: 1;
+}
+.login-hero-box-icon img{
+    border: 1px solid #BCBCBC;
+    padding: 10px 40px;
+    border-radius: 100px;
+}
+.login-hero-box-txt p{
+    color: #ABABAB;
+}
+.login-hero-box-txt span{
+    color: #0A23FF;
+    padding-left: 5px;
+}
+.login-hero-box-txt p,
+.login-hero-box-txt span{
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0px;
+}
+.login-hero-box-detail h4{
+   font-size: 20px;
+   font-weight: 500;     
+}
+
+@media (max-width: 800px) {
+    .login-hero-main-box{
+        padding: 15px;
+    }
+    .login-hero-box-num{
+        margin-top: 2rem !important;
+    }
+    .login-hero-box-btn-main{
+        margin-top: 2rem !important;
+    }
+    .login-hero-box-icon{
+        margin: 10px !important;
+    }
+    .login-hero-box-icon-hr{
+        margin-top: 2rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .login-hero-main-box{
+        margin-bottom: 5rem;
+    }    
+}
+
+@media (max-width: 320px) {
+    .login-hero-box-detail h4 {
+        font-size: 15px;
+    } 
+    .login-hero-box-icon{
+        margin-top: 10px !important;
+    }
+    .login-page .container{
+        max-width: 100%;
+    }
+}

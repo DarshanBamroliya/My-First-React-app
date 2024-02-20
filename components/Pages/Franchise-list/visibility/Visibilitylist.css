@@ -1,0 +1,68 @@
+.visibility-heading h1{
+	font-weight: 700;
+	font-size: 60px;
+}
+.visibility-main-img{
+	margin-top: 2rem;
+	margin-bottom: 10rem;
+}
+.visibility-main-img img{
+	width: 450px;
+}
+.visibility-silver-plan{
+	width: 100%;
+	background-color: #7755D6;
+	border: none;
+	color: #fff;
+	border-radius: 10px;
+	height: 60px;
+	font-weight: 700;
+	font-size: 25px;
+}
+.visibility-silver-plan-main{
+	width: 100%;
+	background-color: #7755D6;
+	border: none;
+	color: #fff;
+	border-radius: 10px;
+	height: 80px;
+	font-weight: 600;
+	font-size: 23px;
+}
+@media(max-width: 1024px){
+	.visibility-main-img img{
+		width: 100%;
+	}
+	.visibility-heading h1{
+		width: 100%;
+		font-size: 50px;
+	}
+}
+@media(max-width:768px){
+	.visibility-silver-plan{
+		height: 50px;
+		font-size: 20px;
+	}
+	.visibility-silver-plan-main{
+		height: 60px;
+		font-size: 18px;
+	}
+	.visibility-main-img{
+		margin-bottom: 0rem;
+	}
+	.visibility-main .container{
+		max-width: 90%;
+	}
+	.visibility-heading h1{
+		font-weight: 600;
+		font-size: 45px;
+	}
+}
+@media(max-width:598px){
+	.visibility-heading h1{
+		font-size: 35px;
+	}
+	.visibility-heading{
+		margin-bottom: 0px !important;
+	}
+}

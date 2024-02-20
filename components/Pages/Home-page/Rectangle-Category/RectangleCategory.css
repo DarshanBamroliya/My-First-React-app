@@ -1,0 +1,116 @@
+.rectangle-sec{
+	background-color: #865CFF;
+}
+.rectangle-wrapp p{
+	font-size: 30px;
+	font-weight: 700;
+}
+.rectangle-wrapp h1{
+	color: #fff;
+	width: 70%;
+	font-size: 50px;
+	font-weight: 700;
+}
+.rectangle-list li{
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 70px;
+	padding-left: 15px;
+}
+.rectangle-sec-svg img{
+		width: 100%;
+}
+ul.rectangle-list{
+	list-style-image: url('C:/Users/Darshan/Desktop/REACT/franchisewala/public/homepage-img/list-icon.svg');
+}
+
+@media (max-width:1400px){
+	.rectangle-wrapp h1{
+		width: 90%;
+	}	
+}
+@media(max-width:1201px){
+	.rectangle-sec-svg .rectangle-svg{
+		width: 500px;
+	}
+}
+@media(max-width:1062px){
+	.rectangle-wrapp h1{
+		font-size: 40px;
+	}
+	.rectangle-sec-svg .rectangle-svg{
+		width: 460px;
+	}
+}
+@media(max-width:940px){
+	.rectangle-sec-svg .rectangle-svg{
+		width: 400px;
+	}
+}
+@media(max-width:891px){
+	.rectangle-sec-svg .rectangle-svg{
+		width: 100%;
+	}
+	.rectangle-wrapp h1{
+		width: 100%;
+		font-size: 40px;
+		font-weight: 600;
+	}
+	.rectangle-list li{
+		font-weight: 500;
+		font-size: 23px;
+		line-height: 60px;
+	}
+}
+@media(max-width:768px){
+	.rectangle-sec-svg .rectangle-svg{
+		width: 100%;
+	}
+	.rectangle-wrapp h1{
+		width: 100%;
+		font-size: 27px;
+		font-weight: 600;
+	}
+	.rectangle-list li{
+		font-weight: 500;
+		font-size: 17px;
+		line-height: 50px;
+	}
+}
+@media(max-width:648px){
+	.rectangle-wrapp h1{
+		width: 100%;
+		font-size: 25px;
+	}
+	.rectangle-list li{
+		line-height: 40px;
+		font-size: 15px;
+		font-weight: 600;
+	}
+	.rectangle-list li::marker{
+		font-size: 0rem;
+	}
+}
+@media(max-width:600px){
+	.rectangle-sec .row{
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+	.rectangle-wrapp{
+		margin: 0px !important;
+	}
+	.rectangle-list li{
+		font-size: 20px;
+	}
+	.rectangle-sec{
+		padding: 0px;
+	}
+	.rectangle-sec-svg img{
+		height: 400px;
+	}
+}
+@media(max-width:425px){
+	.rectangle-sec-svg .rectangle-svg{
+		height: 250px;
+	}
+}
