@@ -1,0 +1,66 @@
+.fundamental-detail-main .container {
+    max-width: 95%;
+}
+
+.fundamental-detail {
+    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 10px 30px 30px 30px;
+}
+
+.fundamental-detail-main th {
+    height: 100px;
+}
+
+.fundamental-detail-main th {
+    color: #292929;
+    font-size: 33px;
+}
+
+.fundamental-detail-main td {
+    color: #5A4D4D;
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 500;
+}
+.fundamental-cus-btn button {
+    background-color: #7755D6;
+    color: #fff;
+    font-size: 12px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 10px;
+    border: none;
+}
+
+@media (max-width: 480px) {
+    .fundamental-detail {
+        box-shadow: 0px 0px 0px 0px;
+        padding: 0px;
+    }
+
+    .fundamental-detail-main .container {
+        max-width: 100%;
+    }
+    .fundamental-detail-main td {
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 700px){
+    .fundamental-detail-main th {
+        font-size: 28px;
+    }
+    
+    .fundamental-detail-main td {
+        font-size: 15px;
+    }
+    .fundamental-cus-btn button {
+        font-size: 12px;
+        width: auto;
+        height: 25px;
+        line-height: 10px;
+    }
+}

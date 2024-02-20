@@ -1,0 +1,37 @@
+
+.hero-swiper .swiper-wrapper img{
+	width: 100%;
+	height: 100vh;
+}
+@media (max-width:1300px){
+	.hero-swiper .swiper-wrapper img{
+		height: 650px;
+	}
+}
+@media (max-width:1024px){
+	.hero-swiper .swiper-wrapper img{
+		height: 550px;
+	}
+}
+@media (max-width:690px){
+	.hero-swiper .swiper-wrapper img{
+		width: 100%;
+		height: 100%;
+	}
+}
+.swiper-button-prev:after,
+.swiper-button-next::after{
+	font-size: 20px !important;
+	opacity: 0.5;
+	background-color: #fff;
+	border-radius: 100%;
+	padding: 8px 13px;
+	position: static;
+}
+@media(max-width:576px){
+	.swiper-button-prev:after,
+	.swiper-button-next::after{
+		font-size: 13px;
+		padding: 12px 13px;
+	}
+}
